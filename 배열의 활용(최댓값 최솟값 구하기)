@@ -14,5 +14,13 @@ int main() {
 		  }
 		  
  }
-  printf("%d", max);
+  printf("최댓값:%d\n", max);
+  
+  for(i=1; i<n; i++) {
+ 	if(min>arr[i]) {
+ 	   min = arr[i];	
+		  }
+		  
+ }
+  printf("최솟값: %d", min);
 }
